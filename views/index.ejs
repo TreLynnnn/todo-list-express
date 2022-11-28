@@ -34,10 +34,10 @@
 
     <h2>Left to do: <%= left %></h2> <!--creates heading level 2 tag with text and EJS to display how many tasks are left-->
 
-    <h2>Add A Todo:</h2>
+    <h2>Add A Todo:</h2> <!--second level heading with text for adding todo-->
 
-    <form action="/addTodo" method="POST">
-        <input type="text" placeholder="Thing To Do" name="todoItem">
+    <form action="/addTodo" method="POST"> <!--creates a form with POST(Create) method that goes to /addTodo route-->
+        <input type="text" placeholder="Thing To Do" name="todoItem"> <!--creates input field that allows text type. Has default text inside before you type anything. Gives unique name value to easily reference it-->
         <input type="submit">
     </form>
     
