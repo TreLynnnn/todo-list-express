@@ -34,14 +34,14 @@
 
     <h2>Left to do: <%= left %></h2> <!--creates heading level 2 tag with text and EJS to display how many tasks are left-->
 
-    <h2>Add A Todo:</h2>
+    <h2>Add A Todo:</h2><!--creates second level heading tag for todo items-->
 
-    <form action="/addTodo" method="POST">
-        <input type="text" placeholder="Thing To Do" name="todoItem">
-        <input type="submit">
-    </form>
+    <form action="/addTodo" method="POST"> <!--creates a form element with a POST(get) method directed to the root file //addToDo-->
+        <input type="text" placeholder="Thing To Do" name="todoItem"> <!--creates input field that allows you to eneter text. Contains a placeholder text before typing is inititated. Also has specific name attribute for easy identification-->
+        <input type="submit"> <!--creates input type that is a ubmit button-->
+    </form> <!--closes the form tag-->
     
 
-    <script src='js/main.js'></script>
-</body>
-</html>
+    <script src='js/main.js'></script> <!--creates a script tag that allows you to connect your js file-->
+</body> <!--closes the body or main content shown on page-->
+</html> <!-- closes the HTMl tag that declares what the page will be rendered in-->
