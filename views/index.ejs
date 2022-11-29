@@ -34,14 +34,23 @@
 
     <h2>Left to do: <%= left %></h2> <!--creates heading level 2 tag with text and EJS to display how many tasks are left-->
 
+<<<<<<< HEAD
     <h2>Add A Todo:</h2> <!--second level heading with text for adding todo-->
 
     <form action="/addTodo" method="POST"> <!--creates a form with POST(Create) method that goes to /addTodo route-->
         <input type="text" placeholder="Thing To Do" name="todoItem"> <!--creates input field that allows text type. Has default text inside before you type anything. Gives unique name value to easily reference it-->
         <input type="submit">
     </form>
+=======
+    <h2>Add A Todo:</h2><!--creates second level heading tag for todo items-->
+
+    <form action="/addTodo" method="POST"> <!--creates a form element with a POST(get) method directed to the root file //addToDo-->
+        <input type="text" placeholder="Thing To Do" name="todoItem"> <!--creates input field that allows you to eneter text. Contains a placeholder text before typing is inititated. Also has specific name attribute for easy identification-->
+        <input type="submit"> <!--creates input type that is a ubmit button-->
+    </form> <!--closes the form tag-->
+>>>>>>> 1a2d6352a71eb3684c7c286917e44b8882088ae3
     
 
-    <script src='js/main.js'></script>
-</body>
-</html>
+    <script src='js/main.js'></script> <!--creates a script tag that allows you to connect your js file-->
+</body> <!--closes the body or main content shown on page-->
+</html> <!-- closes the HTMl tag that declares what the page will be rendered in-->
